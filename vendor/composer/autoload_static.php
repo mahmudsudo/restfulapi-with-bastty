@@ -22,6 +22,7 @@ class ComposerStaticInit55b5e139acec69db7d89497a4c44b948
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         'ebf8799635f67b5d7248946fe2154f4a' => __DIR__ . '/..' . '/ringcentral/psr7/src/functions_include.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
+        'c4e03ecd470d2a87804979c0a8152284' => __DIR__ . '/..' . '/react/async/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -55,6 +56,7 @@ class ComposerStaticInit55b5e139acec69db7d89497a4c44b948
             'React\\EventLoop\\' => 16,
             'React\\Dns\\' => 10,
             'React\\Cache\\' => 12,
+            'React\\Async\\' => 12,
         ),
         'P' => 
         array (
@@ -85,6 +87,10 @@ class ComposerStaticInit55b5e139acec69db7d89497a4c44b948
         'B' => 
         array (
             'Basttyy\\ReactphpOrm\\' => 20,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -177,6 +183,10 @@ class ComposerStaticInit55b5e139acec69db7d89497a4c44b948
         array (
             0 => __DIR__ . '/..' . '/react/cache/src',
         ),
+        'React\\Async\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/async/src',
+        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -227,6 +237,10 @@ class ComposerStaticInit55b5e139acec69db7d89497a4c44b948
         'Basttyy\\ReactphpOrm\\' => 
         array (
             0 => __DIR__ . '/..' . '/basttyy/reactphp-orm/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

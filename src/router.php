@@ -8,7 +8,7 @@ use LogicException;
 use Psr\Http\Message\ServerRequestInterface;
 use React\Http\Message\Response;
 
-final class Router
+class Router
 {
     private $dispatcher;
 
